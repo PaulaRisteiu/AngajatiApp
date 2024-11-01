@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" type="JUnit" factoryName="JUnit">
+    <module name="AngajatiApp" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="AngajatiApp.repository.EmployeeMockTest2" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="AngajatiApp.repository.EmployeeRepositoryInterface" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="AngajatiApp.repository" />
+    <option name="MAIN_CLASS_NAME" value="AngajatiApp.repository.EmployeeMockTest2" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
