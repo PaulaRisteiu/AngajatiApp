@@ -13,10 +13,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EmployeeMockTest2 {
 
-   private EmployeeMock employeeMock;
+   private EmployeeMock employeeMock2;
     @BeforeEach
     void setUp() {
-        employeeMock = new EmployeeMock();
+        employeeMock2 = new EmployeeMock();
     }
 
     @AfterEach
@@ -25,21 +25,21 @@ class EmployeeMockTest2 {
 
     @Test
     public void testModifyEmployeeFunction_ExistingEmployee() {
-        Employee employee = employeeMock.getEmployeeList().get(0);
+        Employee employee = employeeMock2.getEmployeeList().get(0);
         DidacticFunction newFunction = DidacticFunction.TEACHER;
 
-        employeeMock.modifyEmployeeFunction(employee, newFunction);
+        employeeMock2.modifyEmployeeFunction(employee, newFunction);
 
-        assertEquals(newFunction, employeeMock.getEmployeeList().get(0).getFunction());
+        assertEquals(newFunction, employeeMock2.getEmployeeList().get(0).getFunction());
     }
 
     @Test
     public void testModifyEmployeeFunction_NullEmployee() {
 
-        employeeMock.modifyEmployeeFunction(null, DidacticFunction.TEACHER);
+        employeeMock2.modifyEmployeeFunction(null, DidacticFunction.TEACHER);
 
-        assertEquals(DidacticFunction.ASSISTENT, employeeMock.getEmployeeList().get(0).getFunction());
-        assertEquals(DidacticFunction.LECTURER, employeeMock.getEmployeeList().get(1).getFunction());
+        assertEquals(DidacticFunction.ASSISTENT, employeeMock2.getEmployeeList().get(0).getFunction());
+        assertEquals(DidacticFunction.LECTURER, employeeMock2.getEmployeeList().get(1).getFunction());
     }
 
 }
