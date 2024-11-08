@@ -41,5 +41,4 @@ class EmployeeMockTest2 {
         assertEquals(DidacticFunction.ASSISTENT, employeeMock2.getEmployeeList().get(0).getFunction());
         assertEquals(DidacticFunction.LECTURER, employeeMock2.getEmployeeList().get(1).getFunction());
     }
-
 }
