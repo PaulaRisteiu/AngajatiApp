@@ -23,15 +23,6 @@ class EmployeeMockTest2 {
     void tearDown() {
     }
 
-    @Test
-    public void testModifyEmployeeFunction_NullEmployee() {
-
-        employeeMock.modifyEmployeeFunction(null, DidacticFunction.TEACHER);
-
-        // Verify that no employee's function was modified
-        assertEquals(DidacticFunction.ASSISTENT, employeeMock.getEmployeeList().get(0).getFunction());
-        assertEquals(DidacticFunction.LECTURER, employeeMock.getEmployeeList().get(1).getFunction());
-    }
 
     @Test
     public void testModifyEmployeeFunction_ExistingEmployee() {
@@ -46,4 +37,15 @@ class EmployeeMockTest2 {
         assertEquals(newFunction, employeeMock.getEmployeeList().get(0).getFunction());
     }
 
-   }
+    @Test
+    public void testModifyEmployeeFunction_NullEmployee() {
+
+        employeeMock.modifyEmployeeFunction(null, DidacticFunction.TEACHER);
+
+        // Verify that no employee's function was modified
+        assertEquals(DidacticFunction.ASSISTENT, employeeMock.getEmployeeList().get(0).getFunction());
+        assertEquals(DidacticFunction.LECTURER, employeeMock.getEmployeeList().get(1).getFunction());
+    }
+
+
+}
