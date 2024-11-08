@@ -100,11 +100,10 @@
             </goals>
           </execution>
         </executions>
-        <configuration>
+       <!-- <configuration>
           <mainClass>AngajatiApp.main.StartApp</mainClass>
-        </configuration>
+        </configuration> -->
       </plugin>
-
     </plugins>
 
   </build>
