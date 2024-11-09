@@ -28,6 +28,7 @@ public class Employee {
 		this.function  = DidacticFunction.ASSISTENT;
 		this.salary    = 0.0d;
 	}
+
 	
 	/**
 	 * Constructor with fields for employee
