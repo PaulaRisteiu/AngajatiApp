@@ -87,7 +87,7 @@
         <version>2.22.1</version>
         <configuration>
           <includes>
-            <include>**/EmployeeMockTestWBT.java</include>
+            <include>**/EmployeeNewTest.java</include>
             <include>**/EmployeeMockTest.java</include>
           </includes>
         </configuration>

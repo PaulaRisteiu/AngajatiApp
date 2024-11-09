@@ -3,7 +3,7 @@
     <module name="AngajatiApp" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="AngajatiApp.repository.EmployeeMockTestWBT" />
+        <option name="PATTERN" value="AngajatiApp.repository.EmployeeNewTest" />
         <option name="ENABLED" value="true" />
       </pattern>
       <pattern>
@@ -12,7 +12,7 @@
       </pattern>
     </extension>
     <option name="PACKAGE_NAME" value="AngajatiApp.repository" />
-    <option name="MAIN_CLASS_NAME" value="AngajatiApp.repository.EmployeeMockTestWBT" />
+    <option name="MAIN_CLASS_NAME" value="AngajatiApp.repository.EmployeeNewTest" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
     <method v="2">
